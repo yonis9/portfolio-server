@@ -21,11 +21,11 @@ app.post('/message', (req, res) => {
             pass: process.env.PASSWORD // generated ethereal password
           }
         });
-
+from
         const mailOptions = {
           from: from,
           to: 'yonis9@gmail.com', 
-          subject: name+' | new message !',
+          subject: name+` | ${from} | new message !`,
           text: message
       }
       
